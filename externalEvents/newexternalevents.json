@@ -1,0 +1,24 @@
+{
+  "associatedLayout": "Emmy Garden Level Finale",
+  "lastChangeTimeStamp": 0,
+  "name": "NewExternalEvents",
+  "events": [
+    {
+      "disabled": false,
+      "folded": false,
+      "type": "BuiltinCommonInstructions::Standard",
+      "conditions": [],
+      "actions": [],
+      "events": []
+    },
+    {
+      "disabled": false,
+      "folded": false,
+      "type": "BuiltinCommonInstructions::Link",
+      "include": {
+        "includeConfig": 0
+      },
+      "target": "EnemiesManagement"
+    }
+  ]
+}
