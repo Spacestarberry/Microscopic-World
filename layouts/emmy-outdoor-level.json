@@ -23,7 +23,7 @@
     "gridWidth": 70,
     "snap": true,
     "windowMask": true,
-    "zoomFactor": 0.13000000000000003
+    "zoomFactor": 0.57
   },
   "objectsGroups": [
     {
@@ -982,6 +982,38 @@
       "x": 551,
       "y": 241,
       "zOrder": 55,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "height": 62,
+      "layer": "GUI",
+      "locked": false,
+      "name": "heart2",
+      "persistentUuid": "f1ce0f3d-6eec-4e10-88f5-6a26abfbb981",
+      "width": 69,
+      "x": 67,
+      "y": 16,
+      "zOrder": 57,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "height": 62,
+      "layer": "GUI",
+      "locked": false,
+      "name": "heart3",
+      "persistentUuid": "a0f7beed-59d7-4dcb-9b1e-daf3e7c11e2e",
+      "width": 66,
+      "x": 128,
+      "y": 17,
+      "zOrder": 58,
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": []
@@ -3203,7 +3235,7 @@
       "colorR": 74,
       "creationTime": 0,
       "disabled": false,
-      "folded": true,
+      "folded": false,
       "name": "Character Death and Checkpoint",
       "source": "",
       "type": "BuiltinCommonInstructions::Group",
@@ -3428,6 +3460,27 @@
         }
       ],
       "parameters": []
+    },
+    {
+      "disabled": false,
+      "folded": false,
+      "type": "BuiltinCommonInstructions::Standard",
+      "conditions": [
+        {
+          "type": {
+            "inverted": false,
+            "value": "Health::Health::IsJustDamaged"
+          },
+          "parameters": [
+            "Player",
+            "Health",
+            ""
+          ],
+          "subInstructions": []
+        }
+      ],
+      "actions": [],
+      "events": []
     },
     {
       "colorB": 228,
@@ -3681,6 +3734,46 @@
       "name": "GUI",
       "visibility": true,
       "cameras": [
+        {
+          "defaultSize": true,
+          "defaultViewport": true,
+          "height": 0,
+          "viewportBottom": 1,
+          "viewportLeft": 0,
+          "viewportRight": 1,
+          "viewportTop": 0,
+          "width": 0
+        },
+        {
+          "defaultSize": true,
+          "defaultViewport": true,
+          "height": 0,
+          "viewportBottom": 1,
+          "viewportLeft": 0,
+          "viewportRight": 1,
+          "viewportTop": 0,
+          "width": 0
+        },
+        {
+          "defaultSize": true,
+          "defaultViewport": true,
+          "height": 0,
+          "viewportBottom": 1,
+          "viewportLeft": 0,
+          "viewportRight": 1,
+          "viewportTop": 0,
+          "width": 0
+        },
+        {
+          "defaultSize": true,
+          "defaultViewport": true,
+          "height": 0,
+          "viewportBottom": 1,
+          "viewportLeft": 0,
+          "viewportRight": 1,
+          "viewportTop": 0,
+          "width": 0
+        },
         {
           "defaultSize": true,
           "defaultViewport": true,
