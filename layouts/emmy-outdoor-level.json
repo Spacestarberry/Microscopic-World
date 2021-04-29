@@ -23,7 +23,7 @@
     "gridWidth": 70,
     "snap": true,
     "windowMask": true,
-    "zoomFactor": 0.57
+    "zoomFactor": 0.29000000000000004
   },
   "objectsGroups": [
     {
@@ -37,7 +37,7 @@
           "name": "Spider"
         },
         {
-          "name": "Fly"
+          "name": "Bee2"
         }
       ]
     },
@@ -48,7 +48,7 @@
           "name": "Spider"
         },
         {
-          "name": "Fly"
+          "name": "Bee2"
         }
       ]
     }
@@ -464,7 +464,7 @@
       "height": 0,
       "layer": "",
       "locked": false,
-      "name": "Fly",
+      "name": "Bee2",
       "persistentUuid": "8a04113d-cf76-4c66-ad33-832adfea0ddc",
       "width": 0,
       "x": 3039,
@@ -512,7 +512,7 @@
       "height": 0,
       "layer": "",
       "locked": false,
-      "name": "Fly",
+      "name": "Bee2",
       "persistentUuid": "35291db3-5afb-452a-b9de-b1c8a28c924f",
       "width": 0,
       "x": 1519,
@@ -608,7 +608,7 @@
       "height": 0,
       "layer": "",
       "locked": false,
-      "name": "Fly",
+      "name": "Bee2",
       "persistentUuid": "235f6615-086e-4ebf-bdcf-22ea2a8fd28c",
       "width": 0,
       "x": 3166,
@@ -803,8 +803,8 @@
       "name": "GoRight",
       "persistentUuid": "3a0eb82e-6445-45e0-bcde-f67a23b35de6",
       "width": 0,
-      "x": 436,
-      "y": 301,
+      "x": 431,
+      "y": 283,
       "zOrder": 40,
       "numberProperties": [],
       "stringProperties": [],
@@ -972,22 +972,6 @@
     },
     {
       "angle": 0,
-      "customSize": false,
-      "height": 0,
-      "layer": "",
-      "locked": false,
-      "name": "Fly",
-      "persistentUuid": "0f00cf82-413e-45e0-b7ff-3603377cad19",
-      "width": 0,
-      "x": 551,
-      "y": 241,
-      "zOrder": 55,
-      "numberProperties": [],
-      "stringProperties": [],
-      "initialVariables": []
-    },
-    {
-      "angle": 0,
       "customSize": true,
       "height": 62,
       "layer": "GUI",
@@ -1014,6 +998,38 @@
       "x": 128,
       "y": 17,
       "zOrder": 58,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "layer": "",
+      "locked": false,
+      "name": "Bee2",
+      "persistentUuid": "dd37a9e7-98ef-40a1-98ab-090ad566b025",
+      "width": 0,
+      "x": 509,
+      "y": 227,
+      "zOrder": 59,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "layer": "",
+      "locked": false,
+      "name": "swordhitbox",
+      "persistentUuid": "5e76f5d4-4403-4b5c-b0a7-aabfe16612bd",
+      "width": 0,
+      "x": 199,
+      "y": 669,
+      "zOrder": 60,
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": []
@@ -1570,45 +1586,6 @@
       ]
     },
     {
-      "name": "Checkpoint",
-      "tags": "",
-      "type": "Sprite",
-      "updateIfNotVisible": false,
-      "variables": [],
-      "behaviors": [],
-      "animations": [
-        {
-          "name": "plant2",
-          "useMultipleDirections": false,
-          "directions": [
-            {
-              "looping": false,
-              "timeBetweenFrames": 0.07999999821186066,
-              "sprites": [
-                {
-                  "hasCustomCollisionMask": false,
-                  "image": "plant2-1.png",
-                  "points": [],
-                  "originPoint": {
-                    "name": "origine",
-                    "x": 0,
-                    "y": 0
-                  },
-                  "centerPoint": {
-                    "automatic": true,
-                    "name": "centre",
-                    "x": 0,
-                    "y": 0
-                  },
-                  "customCollisionMask": []
-                }
-              ]
-            }
-          ]
-        }
-      ]
-    },
-    {
       "name": "SmallGrass",
       "tags": "",
       "type": "Sprite",
@@ -1967,123 +1944,6 @@
       ]
     },
     {
-      "name": "heart3",
-      "tags": "",
-      "type": "Sprite",
-      "updateIfNotVisible": false,
-      "variables": [],
-      "behaviors": [],
-      "animations": [
-        {
-          "name": "Heart",
-          "useMultipleDirections": false,
-          "directions": [
-            {
-              "looping": true,
-              "timeBetweenFrames": 0.02500000037252903,
-              "sprites": [
-                {
-                  "hasCustomCollisionMask": false,
-                  "image": "Heart-1.png",
-                  "points": [],
-                  "originPoint": {
-                    "name": "origine",
-                    "x": 0,
-                    "y": 0
-                  },
-                  "centerPoint": {
-                    "automatic": true,
-                    "name": "centre",
-                    "x": 0,
-                    "y": 0
-                  },
-                  "customCollisionMask": []
-                }
-              ]
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "name": "heart2",
-      "tags": "",
-      "type": "Sprite",
-      "updateIfNotVisible": false,
-      "variables": [],
-      "behaviors": [],
-      "animations": [
-        {
-          "name": "Heart",
-          "useMultipleDirections": false,
-          "directions": [
-            {
-              "looping": true,
-              "timeBetweenFrames": 0.02500000037252903,
-              "sprites": [
-                {
-                  "hasCustomCollisionMask": false,
-                  "image": "Heart-1.png",
-                  "points": [],
-                  "originPoint": {
-                    "name": "origine",
-                    "x": 0,
-                    "y": 0
-                  },
-                  "centerPoint": {
-                    "automatic": true,
-                    "name": "centre",
-                    "x": 0,
-                    "y": 0
-                  },
-                  "customCollisionMask": []
-                }
-              ]
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "name": "heart",
-      "tags": "",
-      "type": "Sprite",
-      "updateIfNotVisible": false,
-      "variables": [],
-      "behaviors": [],
-      "animations": [
-        {
-          "name": "Heart",
-          "useMultipleDirections": false,
-          "directions": [
-            {
-              "looping": true,
-              "timeBetweenFrames": 0.02500000037252903,
-              "sprites": [
-                {
-                  "hasCustomCollisionMask": false,
-                  "image": "Heart-1.png",
-                  "points": [],
-                  "originPoint": {
-                    "name": "origine",
-                    "x": 0,
-                    "y": 0
-                  },
-                  "centerPoint": {
-                    "automatic": true,
-                    "name": "centre",
-                    "x": 0,
-                    "y": 0
-                  },
-                  "customCollisionMask": []
-                }
-              ]
-            }
-          ]
-        }
-      ]
-    },
-    {
       "name": "Player",
       "tags": "",
       "type": "Sprite",
@@ -2275,139 +2135,6 @@
       ]
     },
     {
-      "name": "Fly",
-      "tags": "",
-      "type": "Sprite",
-      "updateIfNotVisible": true,
-      "variables": [
-        {
-          "name": "bad_health",
-          "type": "string",
-          "value": "3"
-        }
-      ],
-      "behaviors": [
-        {
-          "name": "PlatformerObject",
-          "type": "PlatformBehavior::PlatformerObjectBehavior",
-          "acceleration": 500,
-          "canGrabPlatforms": false,
-          "deceleration": 500,
-          "gravity": 0,
-          "ignoreDefaultControls": true,
-          "jumpSpeed": 600,
-          "maxFallingSpeed": 700,
-          "maxSpeed": 400,
-          "roundCoordinates": false,
-          "slopeMaxAngle": 0,
-          "xGrabTolerance": 10,
-          "yGrabOffset": 0
-        },
-        {
-          "name": "Tween",
-          "type": "Tween::TweenBehavior"
-        }
-      ],
-      "animations": [
-        {
-          "name": "",
-          "useMultipleDirections": false,
-          "directions": [
-            {
-              "looping": true,
-              "timeBetweenFrames": 0.1,
-              "sprites": [
-                {
-                  "hasCustomCollisionMask": false,
-                  "image": "bee.png",
-                  "points": [],
-                  "originPoint": {
-                    "name": "origine",
-                    "x": 0,
-                    "y": 0
-                  },
-                  "centerPoint": {
-                    "automatic": true,
-                    "name": "centre",
-                    "x": 0,
-                    "y": 0
-                  },
-                  "customCollisionMask": [
-                    [
-                      {
-                        "x": 0,
-                        "y": 0
-                      },
-                      {
-                        "x": 0,
-                        "y": 0
-                      },
-                      {
-                        "x": 0,
-                        "y": 0
-                      },
-                      {
-                        "x": 0,
-                        "y": 0
-                      }
-                    ]
-                  ]
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "name": "Dead",
-          "useMultipleDirections": false,
-          "directions": [
-            {
-              "looping": false,
-              "timeBetweenFrames": 1,
-              "sprites": [
-                {
-                  "hasCustomCollisionMask": false,
-                  "image": "bee side down.png",
-                  "points": [],
-                  "originPoint": {
-                    "name": "origine",
-                    "x": 0,
-                    "y": 0
-                  },
-                  "centerPoint": {
-                    "automatic": true,
-                    "name": "centre",
-                    "x": 0,
-                    "y": 0
-                  },
-                  "customCollisionMask": [
-                    [
-                      {
-                        "x": 0,
-                        "y": 0
-                      },
-                      {
-                        "x": 0,
-                        "y": 0
-                      },
-                      {
-                        "x": 0,
-                        "y": 0
-                      },
-                      {
-                        "x": 0,
-                        "y": 0
-                      }
-                    ]
-                  ]
-                }
-              ]
-            }
-          ]
-        }
-      ]
-    },
-    {
       "name": "spider",
       "tags": "",
       "type": "Sprite",
@@ -2579,30 +2306,6 @@
           },
           "parameters": [
             "GoRight"
-          ],
-          "subInstructions": []
-        },
-        {
-          "type": {
-            "inverted": false,
-            "value": "ModVarGlobal"
-          },
-          "parameters": [
-            "life",
-            "=",
-            "GlobalVariable(life max)"
-          ],
-          "subInstructions": []
-        },
-        {
-          "type": {
-            "inverted": false,
-            "value": "ModVarGlobal"
-          },
-          "parameters": [
-            "life max",
-            "=",
-            "3"
           ],
           "subInstructions": []
         }
@@ -3235,7 +2938,7 @@
       "colorR": 74,
       "creationTime": 0,
       "disabled": false,
-      "folded": false,
+      "folded": true,
       "name": "Character Death and Checkpoint",
       "source": "",
       "type": "BuiltinCommonInstructions::Group",
@@ -3462,33 +3165,12 @@
       "parameters": []
     },
     {
-      "disabled": false,
-      "folded": false,
-      "type": "BuiltinCommonInstructions::Standard",
-      "conditions": [
-        {
-          "type": {
-            "inverted": false,
-            "value": "Health::Health::IsJustDamaged"
-          },
-          "parameters": [
-            "Player",
-            "Health",
-            ""
-          ],
-          "subInstructions": []
-        }
-      ],
-      "actions": [],
-      "events": []
-    },
-    {
       "colorB": 228,
       "colorG": 176,
       "colorR": 74,
       "creationTime": 0,
       "disabled": false,
-      "folded": true,
+      "folded": false,
       "name": "Fighting",
       "source": "",
       "type": "BuiltinCommonInstructions::Group",
@@ -3819,10 +3501,6 @@
     }
   ],
   "behaviorsSharedData": [
-    {
-      "name": "Anchor",
-      "type": "AnchorBehavior::AnchorBehavior"
-    },
     {
       "name": "Health",
       "type": "Health::Health"

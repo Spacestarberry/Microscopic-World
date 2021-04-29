@@ -23,7 +23,7 @@
     "gridWidth": 32,
     "snap": true,
     "windowMask": false,
-    "zoomFactor": 0.44999999999999996
+    "zoomFactor": 0.09000000000000002
   },
   "objectsGroups": [
     {
@@ -52,6 +52,16 @@
       "name": "CheckpointY",
       "type": "string",
       "value": "0"
+    },
+    {
+      "name": "Time",
+      "type": "string",
+      "value": ""
+    },
+    {
+      "name": "Cooldown",
+      "type": "string",
+      "value": ""
     }
   ],
   "instances": [
@@ -1014,8 +1024,8 @@
       "name": "SummerTilePlatformCenter",
       "persistentUuid": "e499d64f-aa6a-40cb-b9e3-89ebcd1c19bb",
       "width": 78,
-      "x": 1198,
-      "y": 429,
+      "x": 1202,
+      "y": 401,
       "zOrder": 57,
       "numberProperties": [],
       "stringProperties": [],
@@ -1113,22 +1123,6 @@
       "x": 681,
       "y": 216,
       "zOrder": 63,
-      "numberProperties": [],
-      "stringProperties": [],
-      "initialVariables": []
-    },
-    {
-      "angle": 0,
-      "customSize": true,
-      "height": 200,
-      "layer": "",
-      "locked": false,
-      "name": "Spider",
-      "persistentUuid": "34ae5130-5f9c-41cc-8283-f07834f81ff3",
-      "width": 267,
-      "x": 1664,
-      "y": 346,
-      "zOrder": 64,
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": []
@@ -1241,6 +1235,118 @@
       "x": 253,
       "y": 402,
       "zOrder": 71,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "layer": "GUI",
+      "locked": false,
+      "name": "heart",
+      "persistentUuid": "2008f2af-9e71-40b5-8d02-d1844314126a",
+      "width": 0,
+      "x": 25,
+      "y": 18,
+      "zOrder": 72,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "layer": "GUI",
+      "locked": false,
+      "name": "heart2",
+      "persistentUuid": "b00f60f6-15b3-4c19-86e7-e8ca7ee45c42",
+      "width": 0,
+      "x": 117,
+      "y": 20,
+      "zOrder": 73,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "layer": "GUI",
+      "locked": false,
+      "name": "heart3",
+      "persistentUuid": "97a8e85a-7a58-44bd-af01-2290301d6819",
+      "width": 0,
+      "x": 213,
+      "y": 22,
+      "zOrder": 74,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "layer": "",
+      "locked": false,
+      "name": "Checkpoint",
+      "persistentUuid": "878eb705-d938-4d1c-87ee-a0812b76ae1f",
+      "width": 0,
+      "x": -192,
+      "y": 490,
+      "zOrder": 75,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "layer": "",
+      "locked": false,
+      "name": "Checkpoint",
+      "persistentUuid": "ec4515dd-caaa-41ad-9337-278fe7e6f0f7",
+      "width": 0,
+      "x": 1204,
+      "y": 334,
+      "zOrder": 76,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "layer": "",
+      "locked": false,
+      "name": "Checkpoint",
+      "persistentUuid": "f6b7b12c-1358-4c2d-9c44-31d6b25c60bc",
+      "width": 0,
+      "x": 865,
+      "y": 486,
+      "zOrder": 77,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "height": 213,
+      "layer": "",
+      "locked": false,
+      "name": "Spider",
+      "persistentUuid": "3a86650c-08c5-4798-a61f-3da4d82452a6",
+      "width": 355,
+      "x": 1658,
+      "y": 350,
+      "zOrder": 78,
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": []
@@ -1908,173 +2014,17 @@
       ]
     },
     {
-      "name": "Bee",
-      "tags": "",
-      "type": "Sprite",
-      "updateIfNotVisible": true,
-      "variables": [
-        {
-          "name": "badhealth",
-          "type": "string",
-          "value": "3"
-        }
-      ],
-      "behaviors": [
-        {
-          "name": "PlatformerObject",
-          "type": "PlatformBehavior::PlatformerObjectBehavior",
-          "acceleration": 500,
-          "canGrabPlatforms": false,
-          "deceleration": 500,
-          "gravity": 0,
-          "ignoreDefaultControls": true,
-          "jumpSpeed": 600,
-          "maxFallingSpeed": 700,
-          "maxSpeed": 400,
-          "roundCoordinates": false,
-          "slopeMaxAngle": 0,
-          "xGrabTolerance": 10,
-          "yGrabOffset": 0
-        },
-        {
-          "name": "Tween",
-          "type": "Tween::TweenBehavior"
-        }
-      ],
-      "animations": [
-        {
-          "name": "",
-          "useMultipleDirections": false,
-          "directions": [
-            {
-              "looping": true,
-              "timeBetweenFrames": 0.1,
-              "sprites": [
-                {
-                  "hasCustomCollisionMask": false,
-                  "image": "bee.png",
-                  "points": [],
-                  "originPoint": {
-                    "name": "origine",
-                    "x": 0,
-                    "y": 0
-                  },
-                  "centerPoint": {
-                    "automatic": true,
-                    "name": "centre",
-                    "x": 0,
-                    "y": 0
-                  },
-                  "customCollisionMask": [
-                    [
-                      {
-                        "x": 0,
-                        "y": 0
-                      },
-                      {
-                        "x": 0,
-                        "y": 0
-                      },
-                      {
-                        "x": 0,
-                        "y": 0
-                      },
-                      {
-                        "x": 0,
-                        "y": 0
-                      }
-                    ]
-                  ]
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "name": "Dead",
-          "useMultipleDirections": false,
-          "directions": [
-            {
-              "looping": false,
-              "timeBetweenFrames": 1,
-              "sprites": [
-                {
-                  "hasCustomCollisionMask": false,
-                  "image": "bee side down.png",
-                  "points": [],
-                  "originPoint": {
-                    "name": "origine",
-                    "x": 0,
-                    "y": 0
-                  },
-                  "centerPoint": {
-                    "automatic": true,
-                    "name": "centre",
-                    "x": 0,
-                    "y": 0
-                  },
-                  "customCollisionMask": [
-                    [
-                      {
-                        "x": 0,
-                        "y": 0
-                      },
-                      {
-                        "x": 0,
-                        "y": 0
-                      },
-                      {
-                        "x": 0,
-                        "y": 0
-                      },
-                      {
-                        "x": 0,
-                        "y": 0
-                      }
-                    ]
-                  ]
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "name": "bee4",
-          "useMultipleDirections": false,
-          "directions": [
-            {
-              "looping": false,
-              "timeBetweenFrames": 0.07999999821186066,
-              "sprites": [
-                {
-                  "hasCustomCollisionMask": false,
-                  "image": "bee4-1-3.png",
-                  "points": [],
-                  "originPoint": {
-                    "name": "origine",
-                    "x": 0,
-                    "y": 0
-                  },
-                  "centerPoint": {
-                    "automatic": true,
-                    "name": "centre",
-                    "x": 0,
-                    "y": 0
-                  },
-                  "customCollisionMask": []
-                }
-              ]
-            }
-          ]
-        }
-      ]
-    },
-    {
       "name": "Player",
       "tags": "",
       "type": "Sprite",
       "updateIfNotVisible": false,
-      "variables": [],
+      "variables": [
+        {
+          "name": "Life",
+          "type": "string",
+          "value": "3"
+        }
+      ],
       "behaviors": [
         {
           "name": "PlatformerObject",
@@ -2273,24 +2223,23 @@
         {
           "type": {
             "inverted": false,
-            "value": "ModVarGlobal"
+            "value": "ModVarObjet"
           },
           "parameters": [
-            "life",
+            "Player",
+            "Life",
             "=",
-            "GlobalVariable(life max)"
+            "3"
           ],
           "subInstructions": []
         },
         {
           "type": {
             "inverted": false,
-            "value": "ModVarGlobal"
+            "value": "Cache"
           },
           "parameters": [
-            "life max",
-            "=",
-            "3"
+            "swordhitbox"
           ],
           "subInstructions": []
         }
@@ -2335,7 +2284,7 @@
       "colorR": 74,
       "creationTime": 0,
       "disabled": false,
-      "folded": false,
+      "folded": true,
       "name": "Movement",
       "source": "",
       "type": "BuiltinCommonInstructions::Group",
@@ -2695,146 +2644,7 @@
       "creationTime": 0,
       "disabled": false,
       "folded": false,
-      "name": "Fighting",
-      "source": "",
-      "type": "BuiltinCommonInstructions::Group",
-      "events": [
-        {
-          "disabled": false,
-          "folded": false,
-          "type": "BuiltinCommonInstructions::Standard",
-          "conditions": [
-            {
-              "type": {
-                "inverted": false,
-                "value": "KeyPressed"
-              },
-              "parameters": [
-                "",
-                "z"
-              ],
-              "subInstructions": []
-            }
-          ],
-          "actions": [
-            {
-              "type": {
-                "inverted": false,
-                "value": "ChangeAnimation"
-              },
-              "parameters": [
-                "Player",
-                "=",
-                "3"
-              ],
-              "subInstructions": []
-            },
-            {
-              "type": {
-                "inverted": false,
-                "value": "MettreAutour"
-              },
-              "parameters": [
-                "swordhitbox",
-                "Player",
-                "70",
-                "-30"
-              ],
-              "subInstructions": []
-            }
-          ],
-          "events": [
-            {
-              "disabled": false,
-              "folded": false,
-              "type": "BuiltinCommonInstructions::Standard",
-              "conditions": [
-                {
-                  "type": {
-                    "inverted": false,
-                    "value": "FlippedX"
-                  },
-                  "parameters": [
-                    "Player"
-                  ],
-                  "subInstructions": []
-                }
-              ],
-              "actions": [
-                {
-                  "type": {
-                    "inverted": false,
-                    "value": "MettreAutour"
-                  },
-                  "parameters": [
-                    "swordhitbox",
-                    "Player",
-                    "-50\n",
-                    "30\n"
-                  ],
-                  "subInstructions": []
-                }
-              ],
-              "events": []
-            }
-          ]
-        },
-        {
-          "disabled": false,
-          "folded": false,
-          "type": "BuiltinCommonInstructions::Standard",
-          "conditions": [
-            {
-              "type": {
-                "inverted": false,
-                "value": "KeyReleased"
-              },
-              "parameters": [
-                "",
-                "z"
-              ],
-              "subInstructions": []
-            }
-          ],
-          "actions": [
-            {
-              "type": {
-                "inverted": false,
-                "value": "ChangeAnimation"
-              },
-              "parameters": [
-                "Player",
-                "=",
-                "0\n"
-              ],
-              "subInstructions": []
-            },
-            {
-              "type": {
-                "inverted": false,
-                "value": "MettreX"
-              },
-              "parameters": [
-                "swordhitbox",
-                "=",
-                "10000"
-              ],
-              "subInstructions": []
-            }
-          ],
-          "events": []
-        }
-      ],
-      "parameters": []
-    },
-    {
-      "colorB": 228,
-      "colorG": 176,
-      "colorR": 74,
-      "creationTime": 0,
-      "disabled": false,
-      "folded": false,
-      "name": "Checkpoint and player death",
+      "name": "Character Death and Checkpoint",
       "source": "",
       "type": "BuiltinCommonInstructions::Group",
       "events": [
@@ -3009,7 +2819,7 @@
                 "textG": 0,
                 "textR": 0
               },
-              "comment": "Make a fade in effect",
+              "comment": "Fade in Effect",
               "comment2": ""
             },
             {
@@ -3017,62 +2827,7 @@
               "folded": false,
               "type": "BuiltinCommonInstructions::Standard",
               "conditions": [],
-              "actions": [
-                {
-                  "type": {
-                    "inverted": false,
-                    "value": "Create"
-                  },
-                  "parameters": [
-                    "",
-                    "FadeIn",
-                    "0",
-                    "0",
-                    "\"GUI\""
-                  ],
-                  "subInstructions": []
-                },
-                {
-                  "type": {
-                    "inverted": false,
-                    "value": "TiledSpriteObject::Width"
-                  },
-                  "parameters": [
-                    "FadeIn",
-                    "=",
-                    "SceneWindowWidth()"
-                  ],
-                  "subInstructions": []
-                },
-                {
-                  "type": {
-                    "inverted": false,
-                    "value": "TiledSpriteObject::Height"
-                  },
-                  "parameters": [
-                    "FadeIn",
-                    "=",
-                    "SceneWindowHeight()"
-                  ],
-                  "subInstructions": []
-                },
-                {
-                  "type": {
-                    "inverted": false,
-                    "value": "Tween::AddObjectOpacityTween"
-                  },
-                  "parameters": [
-                    "FadeIn",
-                    "Tween",
-                    "\"FadeIn\"",
-                    "0",
-                    "\"easeInQuad\"",
-                    "1500",
-                    "yes"
-                  ],
-                  "subInstructions": []
-                }
-              ],
+              "actions": [],
               "events": []
             }
           ]
@@ -3136,6 +2891,17 @@
           "width": 0
         }
       ],
+      "effects": []
+    },
+    {
+      "ambientLightColorB": 1702453580,
+      "ambientLightColorG": 6022704,
+      "ambientLightColorR": 83886080,
+      "followBaseLayerCamera": false,
+      "isLightingLayer": false,
+      "name": "GUI",
+      "visibility": true,
+      "cameras": [],
       "effects": []
     }
   ],
