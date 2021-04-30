@@ -23,7 +23,7 @@
     "gridWidth": 32,
     "snap": true,
     "windowMask": false,
-    "zoomFactor": 0.09000000000000002
+    "zoomFactor": 0.2900000000000002
   },
   "objectsGroups": [
     {
@@ -650,8 +650,8 @@
       "name": "Player",
       "persistentUuid": "5e2e3972-fd8c-4c63-be4b-44339f3b5e9b",
       "width": 106,
-      "x": 54,
-      "y": 440,
+      "x": 57,
+      "y": 439,
       "zOrder": 20,
       "numberProperties": [],
       "stringProperties": [],
@@ -1347,6 +1347,22 @@
       "x": 1658,
       "y": 350,
       "zOrder": 78,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "height": 119,
+      "layer": "",
+      "locked": false,
+      "name": "PlayerHitBox",
+      "persistentUuid": "08303205-e6ef-4e47-ae06-cac99fa525c9",
+      "width": 56,
+      "x": 86,
+      "y": 438,
+      "zOrder": 19,
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": []
@@ -2240,6 +2256,39 @@
           },
           "parameters": [
             "swordhitbox"
+          ],
+          "subInstructions": []
+        },
+        {
+          "type": {
+            "inverted": false,
+            "value": "Cache"
+          },
+          "parameters": [
+            "PlayerHitBox"
+          ],
+          "subInstructions": []
+        }
+      ],
+      "events": []
+    },
+    {
+      "disabled": false,
+      "folded": false,
+      "type": "BuiltinCommonInstructions::Standard",
+      "conditions": [],
+      "actions": [
+        {
+          "type": {
+            "inverted": false,
+            "value": "MettreXY"
+          },
+          "parameters": [
+            "Player",
+            "=",
+            "PlayerHitBox.X()-12",
+            "=",
+            "PlayerHitBox.Y()"
           ],
           "subInstructions": []
         }
