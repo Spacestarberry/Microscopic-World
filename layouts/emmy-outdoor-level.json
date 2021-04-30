@@ -23,7 +23,7 @@
     "gridWidth": 70,
     "snap": true,
     "windowMask": true,
-    "zoomFactor": 0.29000000000000004
+    "zoomFactor": 0.48999999999999994
   },
   "objectsGroups": [
     {
@@ -1351,82 +1351,6 @@
           "canBeGrabbed": true,
           "platformType": "Ladder",
           "yGrabOffset": 0
-        }
-      ]
-    },
-    {
-      "name": "PlayerHitBox",
-      "tags": "",
-      "type": "Sprite",
-      "updateIfNotVisible": true,
-      "variables": [],
-      "behaviors": [
-        {
-          "name": "PlatformerObject",
-          "type": "PlatformBehavior::PlatformerObjectBehavior",
-          "jumpSpeed": 800,
-          "jumpSustainTime": 0.4,
-          "acceleration": 1500,
-          "canGrabPlatforms": false,
-          "deceleration": 1500,
-          "gravity": 1300,
-          "ignoreDefaultControls": false,
-          "maxFallingSpeed": 1000,
-          "maxSpeed": 250,
-          "roundCoordinates": true,
-          "slopeMaxAngle": 0,
-          "xGrabTolerance": 10,
-          "yGrabOffset": 0
-        }
-      ],
-      "animations": [
-        {
-          "name": "PlayerArea",
-          "useMultipleDirections": false,
-          "directions": [
-            {
-              "looping": false,
-              "timeBetweenFrames": 1,
-              "sprites": [
-                {
-                  "hasCustomCollisionMask": false,
-                  "image": "PlayerArea-1.png",
-                  "points": [],
-                  "originPoint": {
-                    "name": "origine",
-                    "x": 0,
-                    "y": 0
-                  },
-                  "centerPoint": {
-                    "automatic": true,
-                    "name": "centre",
-                    "x": 0,
-                    "y": 0
-                  },
-                  "customCollisionMask": [
-                    [
-                      {
-                        "x": 0,
-                        "y": 0
-                      },
-                      {
-                        "x": 0,
-                        "y": 0
-                      },
-                      {
-                        "x": 0,
-                        "y": 0
-                      },
-                      {
-                        "x": 0,
-                        "y": 0
-                      }
-                    ]
-                  ]
-                }
-              ]
-            }
-          ]
         }
       ]
     },
@@ -3170,7 +3094,7 @@
       "colorR": 74,
       "creationTime": 0,
       "disabled": false,
-      "folded": false,
+      "folded": true,
       "name": "Fighting",
       "source": "",
       "type": "BuiltinCommonInstructions::Group",

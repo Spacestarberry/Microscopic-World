@@ -9,7 +9,7 @@
       "colorR": 74,
       "creationTime": 0,
       "disabled": false,
-      "folded": true,
+      "folded": false,
       "name": "Enemy Movement",
       "source": "",
       "type": "BuiltinCommonInstructions::Group",
@@ -256,7 +256,7 @@
       "colorR": 74,
       "creationTime": 0,
       "disabled": false,
-      "folded": true,
+      "folded": false,
       "name": "Player gets hurt",
       "source": "",
       "type": "BuiltinCommonInstructions::Group",
@@ -286,6 +286,17 @@
               "parameters": [
                 "Player",
                 "\"cooldownhearts\""
+              ],
+              "subInstructions": []
+            },
+            {
+              "type": {
+                "inverted": false,
+                "value": "ResetObjectTimer"
+              },
+              "parameters": [
+                "swordhitbox",
+                "\"cooldownhit\""
               ],
               "subInstructions": []
             }
@@ -873,6 +884,18 @@
                 ""
               ],
               "subInstructions": []
+            },
+            {
+              "type": {
+                "inverted": false,
+                "value": "ObjectTimer"
+              },
+              "parameters": [
+                "swordhitbox",
+                "\"cooldownhit\"",
+                "0.25"
+              ],
+              "subInstructions": []
             }
           ],
           "actions": [
@@ -900,6 +923,17 @@
                 "1"
               ],
               "subInstructions": []
+            },
+            {
+              "type": {
+                "inverted": false,
+                "value": "ResetObjectTimer"
+              },
+              "parameters": [
+                "swordhitbox",
+                "\"cooldownhit\""
+              ],
+              "subInstructions": []
             }
           ],
           "events": []
@@ -920,6 +954,18 @@
                 "",
                 "",
                 ""
+              ],
+              "subInstructions": []
+            },
+            {
+              "type": {
+                "inverted": false,
+                "value": "ObjectTimer"
+              },
+              "parameters": [
+                "swordhitbox",
+                "\"cooldownhit\"",
+                "0.25"
               ],
               "subInstructions": []
             }
@@ -949,6 +995,17 @@
                 "1"
               ],
               "subInstructions": []
+            },
+            {
+              "type": {
+                "inverted": false,
+                "value": "ResetObjectTimer"
+              },
+              "parameters": [
+                "swordhitbox",
+                "\"cooldownhit\""
+              ],
+              "subInstructions": []
             }
           ],
           "events": []
@@ -969,6 +1026,18 @@
                 "",
                 "",
                 ""
+              ],
+              "subInstructions": []
+            },
+            {
+              "type": {
+                "inverted": false,
+                "value": "ObjectTimer"
+              },
+              "parameters": [
+                "swordhitbox",
+                "\"cooldownhit\"",
+                "0.25"
               ],
               "subInstructions": []
             }
@@ -996,6 +1065,17 @@
                 "badhealth",
                 "-",
                 "1"
+              ],
+              "subInstructions": []
+            },
+            {
+              "type": {
+                "inverted": false,
+                "value": "ResetObjectTimer"
+              },
+              "parameters": [
+                "swordhitbox",
+                "\"cooldownhit\""
               ],
               "subInstructions": []
             }
@@ -1058,6 +1138,17 @@
                 "1500"
               ],
               "subInstructions": []
+            },
+            {
+              "type": {
+                "inverted": false,
+                "value": "ResetObjectTimer"
+              },
+              "parameters": [
+                "swordhitbox",
+                "\"cooldownhit\""
+              ],
+              "subInstructions": []
             }
           ],
           "events": []
@@ -1116,6 +1207,17 @@
                 "PlatformerObject",
                 "=",
                 "1500"
+              ],
+              "subInstructions": []
+            },
+            {
+              "type": {
+                "inverted": false,
+                "value": "ResetObjectTimer"
+              },
+              "parameters": [
+                "swordhitbox",
+                "\"cooldownhit\""
               ],
               "subInstructions": []
             }
@@ -1176,6 +1278,17 @@
                 "PlatformerObject",
                 "=",
                 "1500"
+              ],
+              "subInstructions": []
+            },
+            {
+              "type": {
+                "inverted": false,
+                "value": "ResetObjectTimer"
+              },
+              "parameters": [
+                "swordhitbox",
+                "\"cooldownhit\""
               ],
               "subInstructions": []
             }
@@ -1248,7 +1361,7 @@
       "colorR": 74,
       "creationTime": 0,
       "disabled": false,
-      "folded": true,
+      "folded": false,
       "name": "Fighting",
       "source": "",
       "type": "BuiltinCommonInstructions::Group",
