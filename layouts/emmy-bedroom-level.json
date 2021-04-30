@@ -23,7 +23,7 @@
     "gridWidth": 32,
     "snap": true,
     "windowMask": false,
-    "zoomFactor": 0.32000000000000006
+    "zoomFactor": 0.24000000000000013
   },
   "objectsGroups": [
     {
@@ -37,22 +37,6 @@
   ],
   "variables": [],
   "instances": [
-    {
-      "angle": 0,
-      "customSize": true,
-      "height": 118,
-      "layer": "",
-      "locked": false,
-      "name": "Player",
-      "persistentUuid": "623f5c9a-dcd8-48cd-8053-c8e869c6c434",
-      "width": 106,
-      "x": 1,
-      "y": 454,
-      "zOrder": 20,
-      "numberProperties": [],
-      "stringProperties": [],
-      "initialVariables": []
-    },
     {
       "angle": 0,
       "customSize": true,
@@ -439,6 +423,22 @@
       "x": 132,
       "y": 8,
       "zOrder": 52,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "height": 123,
+      "layer": "",
+      "locked": false,
+      "name": "Player",
+      "persistentUuid": "84765dcd-d59f-4fda-af57-1dba5824ef02",
+      "width": 120,
+      "x": 7,
+      "y": 447,
+      "zOrder": 53,
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": []

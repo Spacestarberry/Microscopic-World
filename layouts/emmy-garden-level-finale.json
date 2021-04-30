@@ -23,7 +23,7 @@
     "gridWidth": 32,
     "snap": true,
     "windowMask": false,
-    "zoomFactor": 0.2900000000000002
+    "zoomFactor": 0.45000000000000023
   },
   "objectsGroups": [
     {
@@ -644,14 +644,14 @@
     {
       "angle": 0,
       "customSize": true,
-      "height": 118,
+      "height": 135,
       "layer": "",
       "locked": false,
       "name": "Player",
       "persistentUuid": "5e2e3972-fd8c-4c63-be4b-44339f3b5e9b",
-      "width": 106,
-      "x": 57,
-      "y": 439,
+      "width": 89,
+      "x": 77,
+      "y": 424,
       "zOrder": 20,
       "numberProperties": [],
       "stringProperties": [],
@@ -1227,22 +1227,6 @@
       "angle": 0,
       "customSize": false,
       "height": 0,
-      "layer": "",
-      "locked": false,
-      "name": "Bee",
-      "persistentUuid": "8bc4c0b6-5f98-4d24-a9a1-cc138f9c2c91",
-      "width": 0,
-      "x": 253,
-      "y": 402,
-      "zOrder": 71,
-      "numberProperties": [],
-      "stringProperties": [],
-      "initialVariables": []
-    },
-    {
-      "angle": 0,
-      "customSize": false,
-      "height": 0,
       "layer": "GUI",
       "locked": false,
       "name": "heart",
@@ -1344,8 +1328,8 @@
       "name": "Spider",
       "persistentUuid": "3a86650c-08c5-4798-a61f-3da4d82452a6",
       "width": 355,
-      "x": 1658,
-      "y": 350,
+      "x": 1607,
+      "y": 381,
       "zOrder": 78,
       "numberProperties": [],
       "stringProperties": [],
@@ -1354,14 +1338,14 @@
     {
       "angle": 0,
       "customSize": true,
-      "height": 119,
+      "height": 125,
       "layer": "",
       "locked": false,
       "name": "PlayerHitBox",
       "persistentUuid": "08303205-e6ef-4e47-ae06-cac99fa525c9",
-      "width": 56,
-      "x": 86,
-      "y": 438,
+      "width": 78,
+      "x": 87,
+      "y": 433,
       "zOrder": 19,
       "numberProperties": [],
       "stringProperties": [],
@@ -2009,174 +1993,6 @@
                 {
                   "hasCustomCollisionMask": false,
                   "image": "Darkplant6-1.png",
-                  "points": [],
-                  "originPoint": {
-                    "name": "origine",
-                    "x": 0,
-                    "y": 0
-                  },
-                  "centerPoint": {
-                    "automatic": true,
-                    "name": "centre",
-                    "x": 0,
-                    "y": 0
-                  },
-                  "customCollisionMask": []
-                }
-              ]
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "name": "Player",
-      "tags": "",
-      "type": "Sprite",
-      "updateIfNotVisible": false,
-      "variables": [
-        {
-          "name": "Life",
-          "type": "string",
-          "value": "3"
-        }
-      ],
-      "behaviors": [
-        {
-          "name": "PlatformerObject",
-          "type": "PlatformBehavior::PlatformerObjectBehavior",
-          "acceleration": 1500,
-          "canGrabPlatforms": false,
-          "deceleration": 1500,
-          "gravity": 1000,
-          "ignoreDefaultControls": false,
-          "jumpSpeed": 600,
-          "jumpSustainTime": 0.2,
-          "ladderClimbingSpeed": 150,
-          "maxFallingSpeed": 700,
-          "maxSpeed": 250,
-          "roundCoordinates": true,
-          "slopeMaxAngle": 60,
-          "xGrabTolerance": 10,
-          "yGrabOffset": 0
-        }
-      ],
-      "animations": [
-        {
-          "name": "Idle",
-          "useMultipleDirections": false,
-          "directions": [
-            {
-              "looping": false,
-              "timeBetweenFrames": 1,
-              "sprites": [
-                {
-                  "hasCustomCollisionMask": false,
-                  "image": "character stand.png",
-                  "points": [],
-                  "originPoint": {
-                    "name": "origine",
-                    "x": 0,
-                    "y": 0
-                  },
-                  "centerPoint": {
-                    "automatic": true,
-                    "name": "centre",
-                    "x": 0,
-                    "y": 0
-                  },
-                  "customCollisionMask": []
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "name": "Running",
-          "useMultipleDirections": false,
-          "directions": [
-            {
-              "looping": true,
-              "timeBetweenFrames": 0.6000000238418579,
-              "sprites": [
-                {
-                  "hasCustomCollisionMask": false,
-                  "image": "character running 23.png",
-                  "points": [],
-                  "originPoint": {
-                    "name": "origine",
-                    "x": 0,
-                    "y": 0
-                  },
-                  "centerPoint": {
-                    "automatic": true,
-                    "name": "centre",
-                    "x": 0,
-                    "y": 0
-                  },
-                  "customCollisionMask": []
-                },
-                {
-                  "hasCustomCollisionMask": false,
-                  "image": "character2.png",
-                  "points": [],
-                  "originPoint": {
-                    "name": "origine",
-                    "x": 0,
-                    "y": 0
-                  },
-                  "centerPoint": {
-                    "automatic": true,
-                    "name": "centre",
-                    "x": 0,
-                    "y": 0
-                  },
-                  "customCollisionMask": []
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "name": "Jumping",
-          "useMultipleDirections": false,
-          "directions": [
-            {
-              "looping": false,
-              "timeBetweenFrames": 0.5,
-              "sprites": [
-                {
-                  "hasCustomCollisionMask": false,
-                  "image": "character jump2.png",
-                  "points": [],
-                  "originPoint": {
-                    "name": "origine",
-                    "x": 0,
-                    "y": 0
-                  },
-                  "centerPoint": {
-                    "automatic": true,
-                    "name": "centre",
-                    "x": 0,
-                    "y": 0
-                  },
-                  "customCollisionMask": []
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "name": "Stabbing",
-          "useMultipleDirections": false,
-          "directions": [
-            {
-              "looping": false,
-              "timeBetweenFrames": 0.08,
-              "sprites": [
-                {
-                  "hasCustomCollisionMask": false,
-                  "image": "stab2.png",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
