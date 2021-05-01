@@ -23,7 +23,7 @@
     "gridWidth": 70,
     "snap": true,
     "windowMask": true,
-    "zoomFactor": 0.48999999999999994
+    "zoomFactor": 0.65
   },
   "objectsGroups": [
     {
@@ -79,14 +79,14 @@
     {
       "angle": 0,
       "customSize": true,
-      "height": 118,
+      "height": 154,
       "layer": "",
       "locked": false,
       "name": "Player",
       "persistentUuid": "788c041d-1b63-42b6-a22a-e95262a08f83",
       "width": 106,
-      "x": 1,
-      "y": 455,
+      "x": 0,
+      "y": 418,
       "zOrder": 20,
       "numberProperties": [],
       "stringProperties": [],
@@ -1895,7 +1895,7 @@
               "sprites": [
                 {
                   "hasCustomCollisionMask": false,
-                  "image": "character stand.png",
+                  "image": "assets\\emmycolorstand.png",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -1943,7 +1943,7 @@
               "sprites": [
                 {
                   "hasCustomCollisionMask": false,
-                  "image": "character jump.png",
+                  "image": "assets\\emmycolorjump.png",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -1991,7 +1991,7 @@
               "sprites": [
                 {
                   "hasCustomCollisionMask": false,
-                  "image": "character running 2.png",
+                  "image": "assets\\emmycolorrun1.png",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -2008,7 +2008,7 @@
                 },
                 {
                   "hasCustomCollisionMask": false,
-                  "image": "character.png",
+                  "image": "assets\\emmycolorrun2.png",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -2037,7 +2037,7 @@
               "sprites": [
                 {
                   "hasCustomCollisionMask": false,
-                  "image": "stab.png",
+                  "image": "assets\\emmycolorstab.png",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
