@@ -23,7 +23,7 @@
     "gridWidth": 70,
     "snap": true,
     "windowMask": true,
-    "zoomFactor": 0.13000000000000003
+    "zoomFactor": 0.65
   },
   "objectsGroups": [
     {
@@ -37,7 +37,7 @@
           "name": "Spider"
         },
         {
-          "name": "Fly"
+          "name": "Bee2"
         }
       ]
     },
@@ -48,7 +48,7 @@
           "name": "Spider"
         },
         {
-          "name": "Fly"
+          "name": "Bee2"
         }
       ]
     }
@@ -79,14 +79,14 @@
     {
       "angle": 0,
       "customSize": true,
-      "height": 118,
+      "height": 154,
       "layer": "",
       "locked": false,
       "name": "Player",
       "persistentUuid": "788c041d-1b63-42b6-a22a-e95262a08f83",
       "width": 106,
-      "x": 1,
-      "y": 455,
+      "x": 0,
+      "y": 418,
       "zOrder": 20,
       "numberProperties": [],
       "stringProperties": [],
@@ -464,7 +464,7 @@
       "height": 0,
       "layer": "",
       "locked": false,
-      "name": "Fly",
+      "name": "Bee2",
       "persistentUuid": "8a04113d-cf76-4c66-ad33-832adfea0ddc",
       "width": 0,
       "x": 3039,
@@ -512,7 +512,7 @@
       "height": 0,
       "layer": "",
       "locked": false,
-      "name": "Fly",
+      "name": "Bee2",
       "persistentUuid": "35291db3-5afb-452a-b9de-b1c8a28c924f",
       "width": 0,
       "x": 1519,
@@ -608,7 +608,7 @@
       "height": 0,
       "layer": "",
       "locked": false,
-      "name": "Fly",
+      "name": "Bee2",
       "persistentUuid": "235f6615-086e-4ebf-bdcf-22ea2a8fd28c",
       "width": 0,
       "x": 3166,
@@ -803,8 +803,8 @@
       "name": "GoRight",
       "persistentUuid": "3a0eb82e-6445-45e0-bcde-f67a23b35de6",
       "width": 0,
-      "x": 436,
-      "y": 301,
+      "x": 431,
+      "y": 283,
       "zOrder": 40,
       "numberProperties": [],
       "stringProperties": [],
@@ -972,16 +972,64 @@
     },
     {
       "angle": 0,
+      "customSize": true,
+      "height": 62,
+      "layer": "GUI",
+      "locked": false,
+      "name": "heart2",
+      "persistentUuid": "f1ce0f3d-6eec-4e10-88f5-6a26abfbb981",
+      "width": 69,
+      "x": 67,
+      "y": 16,
+      "zOrder": 57,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "height": 62,
+      "layer": "GUI",
+      "locked": false,
+      "name": "heart3",
+      "persistentUuid": "a0f7beed-59d7-4dcb-9b1e-daf3e7c11e2e",
+      "width": 66,
+      "x": 128,
+      "y": 17,
+      "zOrder": 58,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
       "customSize": false,
       "height": 0,
       "layer": "",
       "locked": false,
-      "name": "Fly",
-      "persistentUuid": "0f00cf82-413e-45e0-b7ff-3603377cad19",
+      "name": "Bee2",
+      "persistentUuid": "dd37a9e7-98ef-40a1-98ab-090ad566b025",
       "width": 0,
-      "x": 551,
-      "y": 241,
-      "zOrder": 55,
+      "x": 509,
+      "y": 227,
+      "zOrder": 59,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "layer": "",
+      "locked": false,
+      "name": "swordhitbox",
+      "persistentUuid": "5e76f5d4-4403-4b5c-b0a7-aabfe16612bd",
+      "width": 0,
+      "x": 199,
+      "y": 669,
+      "zOrder": 60,
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": []
@@ -1307,82 +1355,6 @@
       ]
     },
     {
-      "name": "PlayerHitBox",
-      "tags": "",
-      "type": "Sprite",
-      "updateIfNotVisible": true,
-      "variables": [],
-      "behaviors": [
-        {
-          "name": "PlatformerObject",
-          "type": "PlatformBehavior::PlatformerObjectBehavior",
-          "jumpSpeed": 800,
-          "jumpSustainTime": 0.4,
-          "acceleration": 1500,
-          "canGrabPlatforms": false,
-          "deceleration": 1500,
-          "gravity": 1300,
-          "ignoreDefaultControls": false,
-          "maxFallingSpeed": 1000,
-          "maxSpeed": 250,
-          "roundCoordinates": true,
-          "slopeMaxAngle": 0,
-          "xGrabTolerance": 10,
-          "yGrabOffset": 0
-        }
-      ],
-      "animations": [
-        {
-          "name": "PlayerArea",
-          "useMultipleDirections": false,
-          "directions": [
-            {
-              "looping": false,
-              "timeBetweenFrames": 1,
-              "sprites": [
-                {
-                  "hasCustomCollisionMask": false,
-                  "image": "PlayerArea-1.png",
-                  "points": [],
-                  "originPoint": {
-                    "name": "origine",
-                    "x": 0,
-                    "y": 0
-                  },
-                  "centerPoint": {
-                    "automatic": true,
-                    "name": "centre",
-                    "x": 0,
-                    "y": 0
-                  },
-                  "customCollisionMask": [
-                    [
-                      {
-                        "x": 0,
-                        "y": 0
-                      },
-                      {
-                        "x": 0,
-                        "y": 0
-                      },
-                      {
-                        "x": 0,
-                        "y": 0
-                      },
-                      {
-                        "x": 0,
-                        "y": 0
-                      }
-                    ]
-                  ]
-                }
-              ]
-            }
-          ]
-        }
-      ]
-    },
-    {
       "bold": false,
       "italic": false,
       "name": "Score",
@@ -1534,45 +1506,6 @@
         {
           "name": "HorizontalTiledSpriteParallax",
           "type": "Parallax::HorizontalTiledSpriteParallax"
-        }
-      ]
-    },
-    {
-      "name": "Checkpoint",
-      "tags": "",
-      "type": "Sprite",
-      "updateIfNotVisible": false,
-      "variables": [],
-      "behaviors": [],
-      "animations": [
-        {
-          "name": "plant2",
-          "useMultipleDirections": false,
-          "directions": [
-            {
-              "looping": false,
-              "timeBetweenFrames": 0.07999999821186066,
-              "sprites": [
-                {
-                  "hasCustomCollisionMask": false,
-                  "image": "plant2-1.png",
-                  "points": [],
-                  "originPoint": {
-                    "name": "origine",
-                    "x": 0,
-                    "y": 0
-                  },
-                  "centerPoint": {
-                    "automatic": true,
-                    "name": "centre",
-                    "x": 0,
-                    "y": 0
-                  },
-                  "customCollisionMask": []
-                }
-              ]
-            }
-          ]
         }
       ]
     },
@@ -1935,123 +1868,6 @@
       ]
     },
     {
-      "name": "heart3",
-      "tags": "",
-      "type": "Sprite",
-      "updateIfNotVisible": false,
-      "variables": [],
-      "behaviors": [],
-      "animations": [
-        {
-          "name": "Heart",
-          "useMultipleDirections": false,
-          "directions": [
-            {
-              "looping": true,
-              "timeBetweenFrames": 0.02500000037252903,
-              "sprites": [
-                {
-                  "hasCustomCollisionMask": false,
-                  "image": "Heart-1.png",
-                  "points": [],
-                  "originPoint": {
-                    "name": "origine",
-                    "x": 0,
-                    "y": 0
-                  },
-                  "centerPoint": {
-                    "automatic": true,
-                    "name": "centre",
-                    "x": 0,
-                    "y": 0
-                  },
-                  "customCollisionMask": []
-                }
-              ]
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "name": "heart2",
-      "tags": "",
-      "type": "Sprite",
-      "updateIfNotVisible": false,
-      "variables": [],
-      "behaviors": [],
-      "animations": [
-        {
-          "name": "Heart",
-          "useMultipleDirections": false,
-          "directions": [
-            {
-              "looping": true,
-              "timeBetweenFrames": 0.02500000037252903,
-              "sprites": [
-                {
-                  "hasCustomCollisionMask": false,
-                  "image": "Heart-1.png",
-                  "points": [],
-                  "originPoint": {
-                    "name": "origine",
-                    "x": 0,
-                    "y": 0
-                  },
-                  "centerPoint": {
-                    "automatic": true,
-                    "name": "centre",
-                    "x": 0,
-                    "y": 0
-                  },
-                  "customCollisionMask": []
-                }
-              ]
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "name": "heart",
-      "tags": "",
-      "type": "Sprite",
-      "updateIfNotVisible": false,
-      "variables": [],
-      "behaviors": [],
-      "animations": [
-        {
-          "name": "Heart",
-          "useMultipleDirections": false,
-          "directions": [
-            {
-              "looping": true,
-              "timeBetweenFrames": 0.02500000037252903,
-              "sprites": [
-                {
-                  "hasCustomCollisionMask": false,
-                  "image": "Heart-1.png",
-                  "points": [],
-                  "originPoint": {
-                    "name": "origine",
-                    "x": 0,
-                    "y": 0
-                  },
-                  "centerPoint": {
-                    "automatic": true,
-                    "name": "centre",
-                    "x": 0,
-                    "y": 0
-                  },
-                  "customCollisionMask": []
-                }
-              ]
-            }
-          ]
-        }
-      ]
-    },
-    {
       "name": "Player",
       "tags": "",
       "type": "Sprite",
@@ -2079,7 +1895,7 @@
               "sprites": [
                 {
                   "hasCustomCollisionMask": false,
-                  "image": "character stand.png",
+                  "image": "assets\\emmycolorstand.png",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -2127,7 +1943,7 @@
               "sprites": [
                 {
                   "hasCustomCollisionMask": false,
-                  "image": "character jump.png",
+                  "image": "assets\\emmycolorjump.png",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -2175,7 +1991,7 @@
               "sprites": [
                 {
                   "hasCustomCollisionMask": false,
-                  "image": "character running 2.png",
+                  "image": "assets\\emmycolorrun1.png",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -2192,7 +2008,7 @@
                 },
                 {
                   "hasCustomCollisionMask": false,
-                  "image": "character.png",
+                  "image": "assets\\emmycolorrun2.png",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -2221,7 +2037,7 @@
               "sprites": [
                 {
                   "hasCustomCollisionMask": false,
-                  "image": "stab.png",
+                  "image": "assets\\emmycolorstab.png",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -2235,139 +2051,6 @@
                     "y": 0
                   },
                   "customCollisionMask": []
-                }
-              ]
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "name": "Fly",
-      "tags": "",
-      "type": "Sprite",
-      "updateIfNotVisible": true,
-      "variables": [
-        {
-          "name": "bad_health",
-          "type": "string",
-          "value": "3"
-        }
-      ],
-      "behaviors": [
-        {
-          "name": "PlatformerObject",
-          "type": "PlatformBehavior::PlatformerObjectBehavior",
-          "acceleration": 500,
-          "canGrabPlatforms": false,
-          "deceleration": 500,
-          "gravity": 0,
-          "ignoreDefaultControls": true,
-          "jumpSpeed": 600,
-          "maxFallingSpeed": 700,
-          "maxSpeed": 400,
-          "roundCoordinates": false,
-          "slopeMaxAngle": 0,
-          "xGrabTolerance": 10,
-          "yGrabOffset": 0
-        },
-        {
-          "name": "Tween",
-          "type": "Tween::TweenBehavior"
-        }
-      ],
-      "animations": [
-        {
-          "name": "",
-          "useMultipleDirections": false,
-          "directions": [
-            {
-              "looping": true,
-              "timeBetweenFrames": 0.1,
-              "sprites": [
-                {
-                  "hasCustomCollisionMask": false,
-                  "image": "bee.png",
-                  "points": [],
-                  "originPoint": {
-                    "name": "origine",
-                    "x": 0,
-                    "y": 0
-                  },
-                  "centerPoint": {
-                    "automatic": true,
-                    "name": "centre",
-                    "x": 0,
-                    "y": 0
-                  },
-                  "customCollisionMask": [
-                    [
-                      {
-                        "x": 0,
-                        "y": 0
-                      },
-                      {
-                        "x": 0,
-                        "y": 0
-                      },
-                      {
-                        "x": 0,
-                        "y": 0
-                      },
-                      {
-                        "x": 0,
-                        "y": 0
-                      }
-                    ]
-                  ]
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "name": "Dead",
-          "useMultipleDirections": false,
-          "directions": [
-            {
-              "looping": false,
-              "timeBetweenFrames": 1,
-              "sprites": [
-                {
-                  "hasCustomCollisionMask": false,
-                  "image": "bee side down.png",
-                  "points": [],
-                  "originPoint": {
-                    "name": "origine",
-                    "x": 0,
-                    "y": 0
-                  },
-                  "centerPoint": {
-                    "automatic": true,
-                    "name": "centre",
-                    "x": 0,
-                    "y": 0
-                  },
-                  "customCollisionMask": [
-                    [
-                      {
-                        "x": 0,
-                        "y": 0
-                      },
-                      {
-                        "x": 0,
-                        "y": 0
-                      },
-                      {
-                        "x": 0,
-                        "y": 0
-                      },
-                      {
-                        "x": 0,
-                        "y": 0
-                      }
-                    ]
-                  ]
                 }
               ]
             }
@@ -2547,30 +2230,6 @@
           },
           "parameters": [
             "GoRight"
-          ],
-          "subInstructions": []
-        },
-        {
-          "type": {
-            "inverted": false,
-            "value": "ModVarGlobal"
-          },
-          "parameters": [
-            "life",
-            "=",
-            "GlobalVariable(life max)"
-          ],
-          "subInstructions": []
-        },
-        {
-          "type": {
-            "inverted": false,
-            "value": "ModVarGlobal"
-          },
-          "parameters": [
-            "life max",
-            "=",
-            "3"
           ],
           "subInstructions": []
         }
@@ -3720,16 +3379,52 @@
           "viewportRight": 1,
           "viewportTop": 0,
           "width": 0
+        },
+        {
+          "defaultSize": true,
+          "defaultViewport": true,
+          "height": 0,
+          "viewportBottom": 1,
+          "viewportLeft": 0,
+          "viewportRight": 1,
+          "viewportTop": 0,
+          "width": 0
+        },
+        {
+          "defaultSize": true,
+          "defaultViewport": true,
+          "height": 0,
+          "viewportBottom": 1,
+          "viewportLeft": 0,
+          "viewportRight": 1,
+          "viewportTop": 0,
+          "width": 0
+        },
+        {
+          "defaultSize": true,
+          "defaultViewport": true,
+          "height": 0,
+          "viewportBottom": 1,
+          "viewportLeft": 0,
+          "viewportRight": 1,
+          "viewportTop": 0,
+          "width": 0
+        },
+        {
+          "defaultSize": true,
+          "defaultViewport": true,
+          "height": 0,
+          "viewportBottom": 1,
+          "viewportLeft": 0,
+          "viewportRight": 1,
+          "viewportTop": 0,
+          "width": 0
         }
       ],
       "effects": []
     }
   ],
   "behaviorsSharedData": [
-    {
-      "name": "Anchor",
-      "type": "AnchorBehavior::AnchorBehavior"
-    },
     {
       "name": "Health",
       "type": "Health::Health"

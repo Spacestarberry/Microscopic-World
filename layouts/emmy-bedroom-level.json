@@ -23,7 +23,7 @@
     "gridWidth": 32,
     "snap": true,
     "windowMask": false,
-    "zoomFactor": 0.3599999999999998
+    "zoomFactor": 0.5199999999999999
   },
   "objectsGroups": [
     {
@@ -37,22 +37,6 @@
   ],
   "variables": [],
   "instances": [
-    {
-      "angle": 0,
-      "customSize": true,
-      "height": 118,
-      "layer": "",
-      "locked": false,
-      "name": "Player",
-      "persistentUuid": "623f5c9a-dcd8-48cd-8053-c8e869c6c434",
-      "width": 106,
-      "x": 1,
-      "y": 454,
-      "zOrder": 20,
-      "numberProperties": [],
-      "stringProperties": [],
-      "initialVariables": []
-    },
     {
       "angle": 0,
       "customSize": true,
@@ -375,6 +359,102 @@
       "x": 1789,
       "y": -85,
       "zOrder": 49,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "height": 118,
+      "layer": "",
+      "locked": false,
+      "name": "PlayerHitBox",
+      "persistentUuid": "1ca80696-dd78-4d8b-bcb5-6130cfb9850f",
+      "width": 65,
+      "x": 30,
+      "y": 454,
+      "zOrder": 0,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "height": 65,
+      "layer": "GUI",
+      "locked": false,
+      "name": "heart",
+      "persistentUuid": "99c058e1-e167-4327-b576-d2d2796a2f82",
+      "width": 77,
+      "x": 5,
+      "y": 7,
+      "zOrder": 50,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "height": 70,
+      "layer": "GUI",
+      "locked": false,
+      "name": "heart2",
+      "persistentUuid": "810bc098-8910-430b-ac17-f5b35b60db0b",
+      "width": 77,
+      "x": 69,
+      "y": 6,
+      "zOrder": 51,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "height": 69,
+      "layer": "GUI",
+      "locked": false,
+      "name": "heart3",
+      "persistentUuid": "d3112263-56f0-4a8c-a5ea-d46c94bcbaa1",
+      "width": 81,
+      "x": 132,
+      "y": 8,
+      "zOrder": 52,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "height": 122,
+      "layer": "",
+      "locked": false,
+      "name": "Ant",
+      "persistentUuid": "89858777-3359-44e9-9d48-642f32ea26f8",
+      "width": 143,
+      "x": 1071,
+      "y": 337,
+      "zOrder": 53,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "height": 188,
+      "layer": "",
+      "locked": false,
+      "name": "Player",
+      "persistentUuid": "9f70db39-3b5a-4d1d-91a6-549ecb9ce6ee",
+      "width": 119,
+      "x": 3,
+      "y": 383,
+      "zOrder": 54,
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": []
@@ -836,7 +916,7 @@
               "sprites": [
                 {
                   "hasCustomCollisionMask": false,
-                  "image": "NewObject2-1.png",
+                  "image": "assets\\emmycolorstand.png",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -865,7 +945,7 @@
               "sprites": [
                 {
                   "hasCustomCollisionMask": false,
-                  "image": "character.png",
+                  "image": "assets\\emmycolorrun1.png",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -882,7 +962,7 @@
                 },
                 {
                   "hasCustomCollisionMask": false,
-                  "image": "character running 22.png",
+                  "image": "assets\\emmycolorrun2.png",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -911,7 +991,7 @@
               "sprites": [
                 {
                   "hasCustomCollisionMask": false,
-                  "image": "character jump.png",
+                  "image": "assets\\emmycolorjump.png",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -940,7 +1020,7 @@
               "sprites": [
                 {
                   "hasCustomCollisionMask": false,
-                  "image": "stab.png",
+                  "image": "assets\\emmycolorstab.png",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -960,6 +1040,24 @@
           ]
         }
       ]
+    },
+    {
+      "name": "NewObject",
+      "tags": "",
+      "type": "Sprite",
+      "updateIfNotVisible": false,
+      "variables": [],
+      "behaviors": [],
+      "animations": []
+    },
+    {
+      "name": "NewObject2",
+      "tags": "",
+      "type": "Sprite",
+      "updateIfNotVisible": false,
+      "variables": [],
+      "behaviors": [],
+      "animations": []
     }
   ],
   "events": [
@@ -987,6 +1085,29 @@
         {
           "type": {
             "inverted": false,
+            "value": "MettreXY"
+          },
+          "parameters": [
+            "Player",
+            "=",
+            "PlayerHitBox.X()-12",
+            "=",
+            "PlayerHitBox.Y()"
+          ],
+          "subInstructions": []
+        }
+      ],
+      "events": []
+    },
+    {
+      "disabled": false,
+      "folded": false,
+      "type": "BuiltinCommonInstructions::Standard",
+      "conditions": [],
+      "actions": [
+        {
+          "type": {
+            "inverted": false,
             "value": "CameraX"
           },
           "parameters": [
@@ -995,6 +1116,16 @@
             "Player.X()",
             "",
             ""
+          ],
+          "subInstructions": []
+        },
+        {
+          "type": {
+            "inverted": false,
+            "value": "Cache"
+          },
+          "parameters": [
+            "PlayerHitBox"
           ],
           "subInstructions": []
         }
@@ -1343,7 +1474,7 @@
       "colorR": 74,
       "creationTime": 0,
       "disabled": false,
-      "folded": true,
+      "folded": false,
       "name": "Fighting",
       "source": "",
       "type": "BuiltinCommonInstructions::Group",
@@ -1490,6 +1621,17 @@
           "width": 0
         }
       ],
+      "effects": []
+    },
+    {
+      "ambientLightColorB": 1702453580,
+      "ambientLightColorG": 6022704,
+      "ambientLightColorR": 83886080,
+      "followBaseLayerCamera": false,
+      "isLightingLayer": false,
+      "name": "GUI",
+      "visibility": true,
+      "cameras": [],
       "effects": []
     }
   ],
