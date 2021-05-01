@@ -446,14 +446,14 @@
     {
       "angle": 0,
       "customSize": true,
-      "height": 139,
+      "height": 188,
       "layer": "",
       "locked": false,
       "name": "Player",
       "persistentUuid": "9f70db39-3b5a-4d1d-91a6-549ecb9ce6ee",
       "width": 119,
-      "x": -1,
-      "y": 439,
+      "x": -8,
+      "y": 392,
       "zOrder": 54,
       "numberProperties": [],
       "stringProperties": [],
@@ -916,7 +916,7 @@
               "sprites": [
                 {
                   "hasCustomCollisionMask": false,
-                  "image": "NewObject2-1.png",
+                  "image": "assets\\emmycolorstand.png",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -945,7 +945,7 @@
               "sprites": [
                 {
                   "hasCustomCollisionMask": false,
-                  "image": "character.png",
+                  "image": "assets\\emmycolorrun1.png",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -962,7 +962,7 @@
                 },
                 {
                   "hasCustomCollisionMask": false,
-                  "image": "character running 22.png",
+                  "image": "assets\\emmycolorrun2.png",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -991,7 +991,7 @@
               "sprites": [
                 {
                   "hasCustomCollisionMask": false,
-                  "image": "character jump.png",
+                  "image": "assets\\emmycolorjump.png",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -1020,7 +1020,7 @@
               "sprites": [
                 {
                   "hasCustomCollisionMask": false,
-                  "image": "stab.png",
+                  "image": "assets\\emmycolorstab.png",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
