@@ -23,7 +23,7 @@
     "gridWidth": 32,
     "snap": true,
     "windowMask": false,
-    "zoomFactor": 0.36
+    "zoomFactor": 0.17000000000000004
   },
   "objectsGroups": [
     {
@@ -102,7 +102,7 @@
       "width": 217,
       "x": 333,
       "y": 432,
-      "zOrder": 36,
+      "zOrder": 38,
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": []
@@ -116,8 +116,8 @@
       "name": "Platform",
       "persistentUuid": "51fc020a-ae8e-4c93-b0f0-1c340807a276",
       "width": 0,
-      "x": 264,
-      "y": 432,
+      "x": 190,
+      "y": 363,
       "zOrder": 37,
       "numberProperties": [],
       "stringProperties": [],
@@ -132,8 +132,8 @@
       "name": "Platform",
       "persistentUuid": "254731e0-2cfd-4119-a673-ea38849d00da",
       "width": 106,
-      "x": 394,
-      "y": 402,
+      "x": 386,
+      "y": 285,
       "zOrder": 38,
       "numberProperties": [],
       "stringProperties": [],
@@ -148,8 +148,8 @@
       "name": "NarrowLadder",
       "persistentUuid": "aca2cd81-de53-40a3-8586-8b730dff5939",
       "width": 56,
-      "x": 436,
-      "y": 250,
+      "x": 426,
+      "y": 130,
       "zOrder": 39,
       "numberProperties": [],
       "stringProperties": [],
@@ -164,8 +164,8 @@
       "name": "NarrowLadderTop",
       "persistentUuid": "4040f93f-a80a-4b54-86b3-99b68a1835ec",
       "width": 0,
-      "x": 436,
-      "y": 202,
+      "x": 427,
+      "y": 88,
       "zOrder": 40,
       "numberProperties": [],
       "stringProperties": [],
@@ -180,8 +180,8 @@
       "name": "Camera",
       "persistentUuid": "c203d692-ab9c-45f0-81d8-e1cd32d9ea46",
       "width": 214,
-      "x": 554,
-      "y": 341,
+      "x": 549,
+      "y": 343,
       "zOrder": 40,
       "numberProperties": [],
       "stringProperties": [],
@@ -196,8 +196,8 @@
       "name": "Book2",
       "persistentUuid": "c7d7d276-1b90-4ff1-b024-fc7a94b15418",
       "width": 142,
-      "x": 604,
-      "y": 439,
+      "x": 588,
+      "y": 436,
       "zOrder": 38,
       "numberProperties": [],
       "stringProperties": [],
@@ -205,15 +205,15 @@
     },
     {
       "angle": 0,
-      "customSize": false,
-      "height": 0,
+      "customSize": true,
+      "height": 64,
       "layer": "",
       "locked": false,
       "name": "Platform",
       "persistentUuid": "3ad18044-3bb2-40fc-af47-b853e80d952f",
-      "width": 0,
-      "x": 620,
-      "y": 256,
+      "width": 346,
+      "x": 609,
+      "y": 132,
       "zOrder": 42,
       "numberProperties": [],
       "stringProperties": [],
@@ -230,7 +230,7 @@
       "width": 116,
       "x": 925,
       "y": 495,
-      "zOrder": 43,
+      "zOrder": 72,
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": []
@@ -238,14 +238,14 @@
     {
       "angle": 0,
       "customSize": true,
-      "height": 244,
+      "height": 218,
       "layer": "",
       "locked": false,
       "name": "LaptopBack",
       "persistentUuid": "2715f67b-dde7-42ff-b3e8-3f2e91402c77",
-      "width": 366,
-      "x": 1112,
-      "y": 379,
+      "width": 322,
+      "x": 1173,
+      "y": 412,
       "zOrder": 44,
       "numberProperties": [],
       "stringProperties": [],
@@ -260,8 +260,8 @@
       "name": "Platform",
       "persistentUuid": "baa82a2c-db8a-45ea-b3f0-6e14a9bf3e68",
       "width": 0,
-      "x": 1120,
-      "y": 451,
+      "x": 1289,
+      "y": 223,
       "zOrder": 45,
       "numberProperties": [],
       "stringProperties": [],
@@ -276,8 +276,8 @@
       "name": "Platform",
       "persistentUuid": "00e85c72-0530-4ccf-9db7-9fb12b64e6be",
       "width": 0,
-      "x": 1304,
-      "y": 335,
+      "x": 1489,
+      "y": 301,
       "zOrder": 46,
       "numberProperties": [],
       "stringProperties": [],
@@ -308,8 +308,8 @@
       "name": "GreenLaser14",
       "persistentUuid": "c84b1233-e422-460b-b756-8d906c31b2ad",
       "width": 0,
-      "x": 1615,
-      "y": 505,
+      "x": 1644,
+      "y": 519,
       "zOrder": 48,
       "numberProperties": [],
       "stringProperties": [],
@@ -420,8 +420,8 @@
       "name": "heart3",
       "persistentUuid": "d3112263-56f0-4a8c-a5ea-d46c94bcbaa1",
       "width": 81,
-      "x": 132,
-      "y": 8,
+      "x": 130,
+      "y": 6,
       "zOrder": 52,
       "numberProperties": [],
       "stringProperties": [],
@@ -430,14 +430,14 @@
     {
       "angle": 0,
       "customSize": true,
-      "height": 122,
+      "height": 96,
       "layer": "",
       "locked": false,
       "name": "Ant",
       "persistentUuid": "89858777-3359-44e9-9d48-642f32ea26f8",
-      "width": 143,
-      "x": 1071,
-      "y": 337,
+      "width": 106,
+      "x": 726,
+      "y": 37,
       "zOrder": 53,
       "numberProperties": [],
       "stringProperties": [],
@@ -446,15 +446,223 @@
     {
       "angle": 0,
       "customSize": true,
-      "height": 188,
+      "height": 130,
       "layer": "",
       "locked": false,
       "name": "Player",
       "persistentUuid": "9f70db39-3b5a-4d1d-91a6-549ecb9ce6ee",
-      "width": 119,
-      "x": -8,
-      "y": 392,
+      "width": 79,
+      "x": 22,
+      "y": 457,
       "zOrder": 54,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "layer": "",
+      "locked": false,
+      "name": "swordhitbox",
+      "persistentUuid": "cde972fc-1903-463b-a513-77a3b2f66e0a",
+      "width": 0,
+      "x": 39,
+      "y": 665,
+      "zOrder": 56,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "height": 64,
+      "layer": "",
+      "locked": false,
+      "name": "Platform",
+      "persistentUuid": "df1e0473-5b63-4137-a5a9-ef61c90e23dd",
+      "width": 346,
+      "x": 895,
+      "y": 239,
+      "zOrder": 42,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "height": 91,
+      "layer": "",
+      "locked": false,
+      "name": "Ant",
+      "persistentUuid": "082ee485-35dd-4618-ab37-cf4e0cdabf8f",
+      "width": 96,
+      "x": 1039,
+      "y": 143,
+      "zOrder": 61,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "height": 166,
+      "layer": "",
+      "locked": false,
+      "name": "WallForBlueFloor",
+      "persistentUuid": "3f858672-fa0d-4450-8bff-739b106884b8",
+      "width": 64,
+      "x": 592,
+      "y": 407,
+      "zOrder": 30,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "layer": "",
+      "locked": false,
+      "name": "WallForBlueFloor",
+      "persistentUuid": "04a59ee5-2766-4c94-b6b7-58724d049add",
+      "width": 0,
+      "x": 385,
+      "y": 478,
+      "zOrder": 20,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "height": 110,
+      "layer": "",
+      "locked": false,
+      "name": "WallForBlueFloor",
+      "persistentUuid": "27335fca-4282-4ad6-8789-2a1c638a4cde",
+      "width": 192,
+      "x": 1265,
+      "y": 466,
+      "zOrder": 20,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "height": 97,
+      "layer": "",
+      "locked": false,
+      "name": "Ant",
+      "persistentUuid": "f436d9c1-0228-4918-9c0e-604f3fb18bf9",
+      "width": 102,
+      "x": 1022,
+      "y": 477,
+      "zOrder": 73,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "layer": "",
+      "locked": false,
+      "name": "GoRight",
+      "persistentUuid": "d8da5f10-d49a-4af4-a568-b8c138d572c0",
+      "width": 0,
+      "x": 773,
+      "y": 515,
+      "zOrder": 74,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "layer": "",
+      "locked": false,
+      "name": "GoLeft",
+      "persistentUuid": "7eca8ffa-42b5-490b-ba7c-259dc32a617f",
+      "width": 0,
+      "x": 1152,
+      "y": 511,
+      "zOrder": 75,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "layer": "",
+      "locked": false,
+      "name": "GoRight",
+      "persistentUuid": "0ce3a3d6-7efa-402d-87fe-5704257f56a8",
+      "width": 0,
+      "x": 982,
+      "y": 183,
+      "zOrder": 76,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "layer": "",
+      "locked": false,
+      "name": "GoLeft",
+      "persistentUuid": "aa8ede49-3131-4924-8042-d42c95d41b0d",
+      "width": 0,
+      "x": 1209,
+      "y": 191,
+      "zOrder": 77,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "layer": "",
+      "locked": false,
+      "name": "GoRight",
+      "persistentUuid": "82148982-749b-4f19-b3a3-dedc45d00e25",
+      "width": 0,
+      "x": 609,
+      "y": 67,
+      "zOrder": 78,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "layer": "",
+      "locked": false,
+      "name": "GoLeft",
+      "persistentUuid": "794dd032-2b24-4e28-8f25-0f602074c916",
+      "width": 0,
+      "x": 915,
+      "y": 88,
+      "zOrder": 79,
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": []
@@ -1128,6 +1336,26 @@
             "PlayerHitBox"
           ],
           "subInstructions": []
+        },
+        {
+          "type": {
+            "inverted": false,
+            "value": "Cache"
+          },
+          "parameters": [
+            "GoRight"
+          ],
+          "subInstructions": []
+        },
+        {
+          "type": {
+            "inverted": false,
+            "value": "Cache"
+          },
+          "parameters": [
+            "GoLeft"
+          ],
+          "subInstructions": []
         }
       ],
       "events": []
@@ -1147,11 +1375,110 @@
       "colorR": 74,
       "creationTime": 0,
       "disabled": false,
-      "folded": true,
+      "folded": false,
       "name": "Movement",
       "source": "",
       "type": "BuiltinCommonInstructions::Group",
       "events": [
+        {
+          "colorB": 228,
+          "colorG": 176,
+          "colorR": 74,
+          "creationTime": 0,
+          "disabled": false,
+          "folded": true,
+          "name": "Movement 2",
+          "source": "",
+          "type": "BuiltinCommonInstructions::Group",
+          "events": [
+            {
+              "disabled": false,
+              "folded": false,
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "PlatformBehavior::IsOnFloor"
+                  },
+                  "parameters": [
+                    "Player",
+                    "PlatformerObject"
+                  ],
+                  "subInstructions": []
+                }
+              ],
+              "actions": [],
+              "events": [
+                {
+                  "disabled": false,
+                  "folded": false,
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [
+                    {
+                      "type": {
+                        "inverted": true,
+                        "value": "PlatformBehavior::IsMoving"
+                      },
+                      "parameters": [
+                        "Player",
+                        "PlatformerObject"
+                      ],
+                      "subInstructions": []
+                    }
+                  ],
+                  "actions": [
+                    {
+                      "type": {
+                        "inverted": false,
+                        "value": "SetAnimationName"
+                      },
+                      "parameters": [
+                        "Player",
+                        "\"Idle\""
+                      ],
+                      "subInstructions": []
+                    }
+                  ],
+                  "events": []
+                },
+                {
+                  "disabled": false,
+                  "folded": false,
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [
+                    {
+                      "type": {
+                        "inverted": false,
+                        "value": "PlatformBehavior::IsMoving"
+                      },
+                      "parameters": [
+                        "Player",
+                        "PlatformerObject"
+                      ],
+                      "subInstructions": []
+                    }
+                  ],
+                  "actions": [
+                    {
+                      "type": {
+                        "inverted": false,
+                        "value": "SetAnimationName"
+                      },
+                      "parameters": [
+                        "Player",
+                        "\"Running\""
+                      ],
+                      "subInstructions": []
+                    }
+                  ],
+                  "events": []
+                }
+              ]
+            }
+          ],
+          "parameters": []
+        },
         {
           "disabled": false,
           "folded": false,
@@ -1329,6 +1656,38 @@
             {
               "type": {
                 "inverted": false,
+                "value": "PlatformBehavior::IsOnLadder"
+              },
+              "parameters": [
+                "Player",
+                "PlatformerObject"
+              ],
+              "subInstructions": []
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "inverted": false,
+                "value": "SetAnimationName"
+              },
+              "parameters": [
+                "Player",
+                "\"Climb\""
+              ],
+              "subInstructions": []
+            }
+          ],
+          "events": []
+        },
+        {
+          "disabled": false,
+          "folded": false,
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "inverted": false,
                 "value": "PlatformBehavior::IsJumping"
               },
               "parameters": [
@@ -1336,11 +1695,33 @@
                 "PlatformerObject"
               ],
               "subInstructions": []
-            },
+            }
+          ],
+          "actions": [
             {
               "type": {
                 "inverted": false,
-                "value": "PlatformBehavior::IsOnLadder"
+                "value": "ChangeAnimation"
+              },
+              "parameters": [
+                "Player",
+                "=",
+                "2"
+              ],
+              "subInstructions": []
+            }
+          ],
+          "events": []
+        },
+        {
+          "disabled": false,
+          "folded": false,
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "inverted": false,
+                "value": "PlatformBehavior::IsFalling"
               },
               "parameters": [
                 "Player",
@@ -1393,72 +1774,6 @@
                 "30",
                 "",
                 ""
-              ],
-              "subInstructions": []
-            }
-          ],
-          "events": []
-        },
-        {
-          "disabled": false,
-          "folded": false,
-          "type": "BuiltinCommonInstructions::Standard",
-          "conditions": [
-            {
-              "type": {
-                "inverted": false,
-                "value": "KeyReleased"
-              },
-              "parameters": [
-                "",
-                "Right"
-              ],
-              "subInstructions": []
-            }
-          ],
-          "actions": [
-            {
-              "type": {
-                "inverted": false,
-                "value": "ChangeAnimation"
-              },
-              "parameters": [
-                "Player",
-                "=",
-                "0"
-              ],
-              "subInstructions": []
-            }
-          ],
-          "events": []
-        },
-        {
-          "disabled": false,
-          "folded": false,
-          "type": "BuiltinCommonInstructions::Standard",
-          "conditions": [
-            {
-              "type": {
-                "inverted": false,
-                "value": "KeyReleased"
-              },
-              "parameters": [
-                "",
-                "Left"
-              ],
-              "subInstructions": []
-            }
-          ],
-          "actions": [
-            {
-              "type": {
-                "inverted": false,
-                "value": "ChangeAnimation"
-              },
-              "parameters": [
-                "Player",
-                "=",
-                "0"
               ],
               "subInstructions": []
             }

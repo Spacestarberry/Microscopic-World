@@ -23,23 +23,12 @@
     "gridWidth": 70,
     "snap": true,
     "windowMask": true,
-    "zoomFactor": 0.65
+    "zoomFactor": 0.7700000000000001
   },
   "objectsGroups": [
     {
       "name": "VirtualControls",
       "objects": []
-    },
-    {
-      "name": "Enemy",
-      "objects": [
-        {
-          "name": "Spider"
-        },
-        {
-          "name": "Bee2"
-        }
-      ]
     },
     {
       "name": "enemy2",
@@ -79,14 +68,14 @@
     {
       "angle": 0,
       "customSize": true,
-      "height": 154,
+      "height": 126,
       "layer": "",
       "locked": false,
       "name": "Player",
       "persistentUuid": "788c041d-1b63-42b6-a22a-e95262a08f83",
-      "width": 106,
-      "x": 0,
-      "y": 418,
+      "width": 79,
+      "x": 19,
+      "y": 459,
       "zOrder": 20,
       "numberProperties": [],
       "stringProperties": [],
@@ -563,8 +552,8 @@
       "name": "Checkpoint",
       "persistentUuid": "10a2b255-a0f3-459d-855b-7af98673c068",
       "width": 110,
-      "x": -53,
-      "y": 477,
+      "x": -65,
+      "y": 475,
       "zOrder": 26,
       "numberProperties": [],
       "stringProperties": [],
@@ -1713,45 +1702,6 @@
       }
     },
     {
-      "name": "GreenLaser14",
-      "tags": "",
-      "type": "Sprite",
-      "updateIfNotVisible": false,
-      "variables": [],
-      "behaviors": [],
-      "animations": [
-        {
-          "name": "",
-          "useMultipleDirections": false,
-          "directions": [
-            {
-              "looping": true,
-              "timeBetweenFrames": 0.025,
-              "sprites": [
-                {
-                  "hasCustomCollisionMask": false,
-                  "image": "Green laser (14).png",
-                  "points": [],
-                  "originPoint": {
-                    "name": "origine",
-                    "x": 0,
-                    "y": 0
-                  },
-                  "centerPoint": {
-                    "automatic": true,
-                    "name": "centre",
-                    "x": 0,
-                    "y": 0
-                  },
-                  "customCollisionMask": []
-                }
-              ]
-            }
-          ]
-        }
-      ]
-    },
-    {
       "name": "GoLeft",
       "tags": "",
       "type": "Sprite",
@@ -2055,6 +2005,35 @@
               ]
             }
           ]
+        },
+        {
+          "name": "Climb",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": false,
+              "timeBetweenFrames": 0.08,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": false,
+                  "image": "assets\\emmycolorclimb.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": []
+                }
+              ]
+            }
+          ]
         }
       ]
     },
@@ -2297,7 +2276,7 @@
       "colorR": 74,
       "creationTime": 0,
       "disabled": false,
-      "folded": true,
+      "folded": false,
       "name": "Movement (with hitboxes)",
       "source": "",
       "type": "BuiltinCommonInstructions::Group",
@@ -2332,40 +2311,7 @@
               "subInstructions": []
             }
           ],
-          "events": [
-            {
-              "disabled": false,
-              "folded": false,
-              "type": "BuiltinCommonInstructions::Standard",
-              "conditions": [
-                {
-                  "type": {
-                    "inverted": false,
-                    "value": "BuiltinCommonInstructions::Once"
-                  },
-                  "parameters": [],
-                  "subInstructions": []
-                }
-              ],
-              "actions": [
-                {
-                  "type": {
-                    "inverted": false,
-                    "value": "PlaySound"
-                  },
-                  "parameters": [
-                    "",
-                    "jump.wav",
-                    "",
-                    "",
-                    ""
-                  ],
-                  "subInstructions": []
-                }
-              ],
-              "events": []
-            }
-          ]
+          "events": []
         },
         {
           "disabled": false,
@@ -2509,7 +2455,7 @@
               },
               "parameters": [
                 "Player",
-                "\"Jumping\""
+                "\"Climb\""
               ],
               "subInstructions": []
             }

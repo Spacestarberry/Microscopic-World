@@ -1647,15 +1647,6 @@
       },
       {
         "alwaysLoaded": false,
-        "file": "plant2-1.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "plant2-1.png",
-        "smoothed": true,
-        "userAdded": false
-      },
-      {
-        "alwaysLoaded": false,
         "file": "NewFile-1-1.png",
         "kind": "image",
         "metadata": "",
@@ -2102,6 +2093,33 @@
         "name": "assets\\antredhurt2.png",
         "smoothed": true,
         "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "plant2-1.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "plant2-1.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "plant2-1-0.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "plant2-1-0.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/endcard.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\endcard.png",
+        "smoothed": true,
+        "userAdded": true
       }
     ],
     "resourceFolders": []
@@ -2482,7 +2500,7 @@
               "sprites": [
                 {
                   "hasCustomCollisionMask": false,
-                  "image": "plant2-1.png",
+                  "image": "plant2-1-0.png",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -2706,7 +2724,7 @@
           "directions": [
             {
               "looping": true,
-              "timeBetweenFrames": 0.1,
+              "timeBetweenFrames": 0.5,
               "sprites": [
                 {
                   "hasCustomCollisionMask": false,
@@ -2838,7 +2856,7 @@
           "directions": [
             {
               "looping": false,
-              "timeBetweenFrames": 0.08,
+              "timeBetweenFrames": 0.5,
               "sprites": [
                 {
                   "hasCustomCollisionMask": false,
@@ -3119,6 +3137,122 @@
       ]
     },
     {
+      "name": "GoRight",
+      "tags": "",
+      "type": "Sprite",
+      "updateIfNotVisible": true,
+      "variables": [],
+      "behaviors": [],
+      "animations": [
+        {
+          "name": "Right",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": false,
+              "timeBetweenFrames": 1,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": false,
+                  "image": "Right-1.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 0,
+                        "y": 0
+                      },
+                      {
+                        "x": 0,
+                        "y": 0
+                      },
+                      {
+                        "x": 0,
+                        "y": 0
+                      },
+                      {
+                        "x": 0,
+                        "y": 0
+                      }
+                    ]
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "GoLeft",
+      "tags": "",
+      "type": "Sprite",
+      "updateIfNotVisible": true,
+      "variables": [],
+      "behaviors": [],
+      "animations": [
+        {
+          "name": "Left",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": false,
+              "timeBetweenFrames": 1,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": false,
+                  "image": "Left-1.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 0,
+                        "y": 0
+                      },
+                      {
+                        "x": 0,
+                        "y": 0
+                      },
+                      {
+                        "x": 0,
+                        "y": 0
+                      },
+                      {
+                        "x": 0,
+                        "y": 0
+                      }
+                    ]
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
       "name": "Player",
       "tags": "",
       "type": "Sprite",
@@ -3314,9 +3448,63 @@
           ]
         }
       ]
+    },
+    {
+      "name": "GreenLaser14",
+      "tags": "",
+      "type": "Sprite",
+      "updateIfNotVisible": false,
+      "variables": [],
+      "behaviors": [],
+      "animations": [
+        {
+          "name": "",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": true,
+              "timeBetweenFrames": 0.025,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": false,
+                  "image": "Green laser (14).png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": []
+                }
+              ]
+            }
+          ]
+        }
+      ]
     }
   ],
-  "objectsGroups": [],
+  "objectsGroups": [
+    {
+      "name": "Enemy",
+      "objects": [
+        {
+          "name": "Spider"
+        },
+        {
+          "name": "Bee2"
+        },
+        {
+          "name": "Ant"
+        }
+      ]
+    }
+  ],
   "variables": [
     {
       "name": "life max",
@@ -3341,6 +3529,10 @@
     {
       "__REFERENCE_TO_SPLIT_OBJECT": true,
       "referenceTo": "/layouts/emmy-garden-level-finale"
+    },
+    {
+      "__REFERENCE_TO_SPLIT_OBJECT": true,
+      "referenceTo": "/layouts/endcard"
     }
   ],
   "externalEvents": [
