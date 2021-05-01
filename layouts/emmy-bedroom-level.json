@@ -23,7 +23,7 @@
     "gridWidth": 32,
     "snap": true,
     "windowMask": false,
-    "zoomFactor": 0.24000000000000013
+    "zoomFactor": 0.32000000000000023
   },
   "objectsGroups": [
     {
@@ -423,22 +423,6 @@
       "x": 132,
       "y": 8,
       "zOrder": 52,
-      "numberProperties": [],
-      "stringProperties": [],
-      "initialVariables": []
-    },
-    {
-      "angle": 0,
-      "customSize": true,
-      "height": 123,
-      "layer": "",
-      "locked": false,
-      "name": "Player",
-      "persistentUuid": "84765dcd-d59f-4fda-af57-1dba5824ef02",
-      "width": 120,
-      "x": 7,
-      "y": 447,
-      "zOrder": 53,
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": []
@@ -1027,6 +1011,15 @@
     },
     {
       "name": "NewObject",
+      "tags": "",
+      "type": "Sprite",
+      "updateIfNotVisible": false,
+      "variables": [],
+      "behaviors": [],
+      "animations": []
+    },
+    {
+      "name": "NewObject2",
       "tags": "",
       "type": "Sprite",
       "updateIfNotVisible": false,
