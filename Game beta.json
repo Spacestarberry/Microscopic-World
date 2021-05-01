@@ -2048,6 +2048,15 @@
         "name": "assets\\emmycolorrun2.png",
         "smoothed": true,
         "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/emmycolorclimb.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\emmycolorclimb.png",
+        "smoothed": true,
+        "userAdded": false
       }
     ],
     "resourceFolders": []
@@ -3008,6 +3017,35 @@
                     "name": "centre",
                     "x": 77.5,
                     "y": 137.5
+                  },
+                  "customCollisionMask": []
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "climb",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": false,
+              "timeBetweenFrames": 0.08,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": false,
+                  "image": "assets\\emmycolorclimb.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
                   },
                   "customCollisionMask": []
                 }
