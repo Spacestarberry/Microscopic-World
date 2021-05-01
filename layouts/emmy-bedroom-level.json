@@ -23,7 +23,7 @@
     "gridWidth": 32,
     "snap": true,
     "windowMask": false,
-    "zoomFactor": 0.32000000000000023
+    "zoomFactor": 0.36
   },
   "objectsGroups": [
     {
@@ -423,6 +423,38 @@
       "x": 132,
       "y": 8,
       "zOrder": 52,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "height": 122,
+      "layer": "",
+      "locked": false,
+      "name": "Ant",
+      "persistentUuid": "89858777-3359-44e9-9d48-642f32ea26f8",
+      "width": 143,
+      "x": 1071,
+      "y": 337,
+      "zOrder": 53,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "height": 139,
+      "layer": "",
+      "locked": false,
+      "name": "Player",
+      "persistentUuid": "9f70db39-3b5a-4d1d-91a6-549ecb9ce6ee",
+      "width": 119,
+      "x": -1,
+      "y": 439,
+      "zOrder": 54,
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": []
