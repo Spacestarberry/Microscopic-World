@@ -23,7 +23,7 @@
     "gridWidth": 70,
     "snap": true,
     "windowMask": true,
-    "zoomFactor": 0.7700000000000001
+    "zoomFactor": 0.25000000000000006
   },
   "objectsGroups": [
     {
@@ -586,22 +586,6 @@
       "width": 0,
       "x": 3324,
       "y": 311,
-      "zOrder": 1,
-      "numberProperties": [],
-      "stringProperties": [],
-      "initialVariables": []
-    },
-    {
-      "angle": 0,
-      "customSize": false,
-      "height": 0,
-      "layer": "",
-      "locked": false,
-      "name": "Bee2",
-      "persistentUuid": "235f6615-086e-4ebf-bdcf-22ea2a8fd28c",
-      "width": 0,
-      "x": 3166,
-      "y": 248,
       "zOrder": 1,
       "numberProperties": [],
       "stringProperties": [],
